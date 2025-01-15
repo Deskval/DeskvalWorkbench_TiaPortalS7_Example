@@ -12,8 +12,7 @@ Note that, as the exchange mechanism uses the datablock numbers and array sizes,
 In order to setup S7 communication, there are things to do, both in Deskval Workbench and S7 Plc side.
 
 ## Setting Up Deskval Workbench 
-o Go to Settings > S7, Enter Ip Address, Select Cpu type, Fill the fields Rack, Slot, Bool Datablock Nr, Double Block Nr
-o Put Enable tick
+o Go to Settings > S7, Enter Ip Address, Select Cpu type, Fill the fields Rack, Slot, Bool Datablock Nr, Double Block Nr and Put Enable tick
 
 ## Setting Up S7 Plc Side
 o S7 Plc program should have 2 Datablocks that are related to Boolean and Num (Double typed) Tags.
